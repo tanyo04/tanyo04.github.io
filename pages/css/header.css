@@ -1,0 +1,92 @@
+﻿#p_musikahan_logo {
+    width: 100%;
+    border-right: solid;
+    border-color: #d7d7d7;
+    border-width: 2px;
+    margin-right: 20px;
+}
+
+body {
+    background-color: white
+}
+
+
+
+.txt_welcome {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+#txt-verification-code {
+    font-size: 50px;
+}
+
+.welcome-text {
+    line-height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+@media only screen and (max-width: 575px) {
+   
+  
+    .txt_welcome {       
+        font-size: 24px;
+    }
+    #txt-verification-code {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (max-width: 439px) {
+    .welcome-text {
+        line-height: 34px;
+    }
+    .txt_welcome {        
+        font-size: 20px;
+    }
+
+    #txt-verification-code {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 393px) {
+    .welcome-text {
+        line-height: 28px;
+    }
+
+    .txt_welcome {
+        font-size: 18px;
+    }
+
+    #txt-verification-code {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 341px) {
+    .welcome-text {
+        line-height: 22px;
+    }
+
+    .txt_welcome {
+        font-size: 16px;
+    }
+
+    #txt-verification-code {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 299px) {
+  
+
+    .txt_welcome {
+        font-size: 14px;
+    }
+
+    #txt-verification-code {
+        font-size: 24px;
+    }
+}

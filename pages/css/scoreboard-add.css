@@ -1,0 +1,197 @@
+﻿.navbar {
+    justify-content: center
+}
+.section-carousel {
+    display: none;
+}
+#section_events {
+    margin: 0 100px;
+}
+
+.card {
+    border: 2px solid green !important;
+    margin: 0 10px;
+}
+
+.card-img-actions-overlay {
+    background-color: rgb(26 159 21 / 30%) !important;
+}
+
+#img-winner-juror {
+    border-radius: 60px;
+}
+
+.content-block.bg-text {
+    background-position: 60% 40% !important;
+}
+
+.img-trophy {
+    width: 100%;
+}
+
+.dv-img-trophy {
+    width: 23%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.image-block {
+    width: 100%;
+}
+
+.img-winner-juror {
+    width: 63%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+}
+
+.step-image {
+    border: 2px solid #25b372;
+}
+
+#header-scoreboard {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 0;
+    color: #3f403f;
+    line-height: 25px;
+}
+
+#header-event {
+    text-align: center;
+    color: #7a7c7a;
+}
+
+.badge {
+    font-size: 30px !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar {
+        display: none;
+    }
+
+    .section-carousel {
+        display: block;
+    }
+
+    #section_events {
+        margin: 0;
+    }
+
+    .content-wrapper {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+    #header-event {
+        margin-bottom: 54px;
+    }
+
+    .dv-slide-carousel {
+
+    }
+    .dv-slide-carousel {
+        width: 25%;
+    }
+}
+@media only screen and (max-width: 767px) {
+
+    .dv-slide-carousel {
+        width: 30%;
+    }
+    h2 {      
+        font-size: 36px;       
+    }
+    .badge {
+        font-size: 28px !important;
+    }
+}
+
+
+@media only screen and (max-width: 625px) {  
+
+    .dv-slide-carousel {
+           width:40%;
+    }
+}
+@media only screen and (max-width: 498px) {  
+
+    .dv-slide-carousel {
+           width:50%;
+    }
+    #header-scoreboard {      
+        line-height: 0px;
+    }
+    .badge {
+        font-size: 25px !important;
+    }
+    .content-section-bg {
+        padding-top: 30px;
+    }
+    h3 {      
+        font-size: 29px;       
+    }
+    h4 {       
+        font-size: 22px;       
+    }
+    .img-winner-juror {
+        width: 90%;       
+    }
+}
+@media only screen and (max-width: 413px) {
+
+    .badge {
+        font-size: 20px !important;
+    }
+    #header-scoreboard {
+      
+        margin-bottom: 5px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+    p {      
+        font-size: 14px;       
+    }
+    h5 {     
+        font-size: 18px;       
+    }
+}
+@media only screen and (max-width: 398px) {  
+
+    .dv-slide-carousel {
+           width:60%;
+    }
+    h2 {
+        font-size: 27px;
+    }
+    .dv-img-trophy{
+        display:none;
+    }
+   
+}
+@media only screen and (max-width: 319px) {
+    .badge {
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 295px) {  
+
+    .dv-slide-carousel {
+           width:100%;
+    }
+    .img-winner-juror {
+        width: 100%;
+    }
+}
+
+
+

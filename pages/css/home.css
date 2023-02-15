@@ -1,0 +1,187 @@
+﻿#img-musikahan-logo {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+body {
+    background-color: white;
+    font-family: "Noto Sans",Calibri,Arial,sans-serif;
+}
+
+#verification-code {
+    width: 60%;
+    margin: 20px auto 30px;
+}
+
+.txtVerification {
+    text-align: center;
+    font-size: 42px;
+    border: 2px solid #23984f;
+    border-radius: 1.25rem;
+    height: calc(1.5715em + 0.875rem + 20px);
+    letter-spacing: 5px;
+}
+
+    .txtVerification:hover {
+        border-color: green
+    }
+   
+
+
+#dv-verify {
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+}
+
+#btn-verify {
+    font-size: 24px;
+    padding: 20px 2px;
+    width: 30%;
+}
+
+#dv-header {
+    text-align: center;
+}
+
+.dv-title {
+    font-size: 87px;
+}
+
+.dv-description {
+    font-size: 24px;
+    color: #7a7878;
+}
+
+.text-now {
+    color: #23984f;
+}
+
+#dv-sponsor-header {
+    text-align: center;
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 991px) {
+    #img-musikahan-logo {
+        width: 75%;
+    }
+    #verification-code {
+        width: 100%;       
+    }
+
+    .txtVerification {       
+        font-size: 36px;     
+        letter-spacing: 4px;
+    }
+
+    #btn-verify {
+        padding: 18px 2px;
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .page-header-content {
+        display: flex;
+        align-items: center;
+    }
+    #img-musikahan-logo {
+        width: 100%;
+    }
+
+    .txtVerification {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    #btn-verify {      
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .dv-title {
+        font-size: 64px;
+    }
+
+    .dv-description {
+        font-size: 20px;      
+    }
+
+    .txtVerification {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+ 
+    #btn-verify {       
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 456px) {
+    .dv-title {
+        font-size: 58px;
+    }
+
+    .dv-description {
+        font-size: 16px;
+    }
+
+    #verification-code {      
+        margin: 20px auto 14px;
+    }
+
+    #btn-verify {
+        padding: 12px 2px;
+     
+    }
+    #dv-verify {     
+        margin-top: 20px;     
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .dv-title {
+        font-size: 52px;
+    }
+
+    .dv-description {
+        font-size: 14px;
+    }
+
+    #btn-verify {
+        padding: 12px 2px;
+    }
+
+}
+
+@media only screen and (max-width: 292px) {
+    .dv-title {
+        font-size: 52px;
+    }
+
+    .dv-description {
+        font-size: 11px;
+    }
+
+    #verification-code {      
+        margin: 20px auto 10px;
+    }
+    .txtVerification {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    #btn-verify {
+        padding: 8px 2px;
+       
+    }
+    #dv-verify {
+       
+        margin-top: 16px;
+       
+    }
+}

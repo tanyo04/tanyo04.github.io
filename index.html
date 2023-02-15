@@ -1,166 +1,277 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Profile- Quilario J</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="vendors/linericon/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Musikahan 2023 | Scoreboard</title>
+
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="lib/font-awesome/css/all.min.css" rel="stylesheet" />
+	<link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="pages/css/scoreboard.css" rel="stylesheet" />
+    <link href="pages/css/scoreboard-add.css" rel="stylesheet" />
+    <link href="pages/css/carousel.css" rel="stylesheet" />
+	<!-- /global stylesheets -->
+	<!-- Core JS files -->
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/jquery-ui.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+
+	<script src="assets/js/app.js"></script>
 
 </head>
-
 <body>
 
-    <div class="header">
-        <h1>PERSONAL PROFILE</h1>
-        <p>Welcome to discover more about me.</p>
-    </div>
 
-    <div class="topnav">
-        <a href="#">HOME</a>
-        <a href="#experiences">EXPERIENCES</a>
-        <!-- <a href="#" style="float:right">PORTFOLIO</a> -->
-    </div>
-
-    <div class="row">
-        <div class="leftcolumn">
+	<div class="navbar navbar-expand-lg navbar-dark navbar-static">
+    
+        <div class="container d-flex" id="section_events">
+    
+    
             <div class="card">
-                <div class="profile-section">
-                    <img src="images/profile.jpg" alt="">
-
-                    <div class="personal_text">
-                        <h6>Good day Everyone! I am</h6>
-                        <h3>Jonathan Quilario</h3>
-                        <h4>Software Developer</h4>
-                        <p>A skilled programmer who utilizes the MVC Framework, c#, ASP.Net, HTML, CSS, JQuery, Javascript, Webforms, Python, VueJS, and ReactJS</p>
-
-                        <ul class="list basic_info">
-                            <li><a href="#"><i class="lnr lnr-calendar-full"></i> 4th June, 1989</a></li>
-                            <li><a href="#"><i class="lnr lnr-phone-handset"></i> (+63) 965 791 1749</a></li>
-                            <li><a href="#"><i class="lnr lnr-envelope"></i>jonathanquilario@gmail.com</a></li>
-                            <li><a href="#"><i class="lnr lnr-home"></i> Peda St., San Francisco, Panabo City</a></li>
-                        </ul>
-
-                        <ul class="list personal_social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
+                <div class="card-img-actions m-1">
+                    <a onclick="displaytext(1); return false;">
+                        <img class="card-img img-fluid" src="images/events/1.jpg" />
+                        <div class="card-img-actions-overlay card-img">	</div>
+                    </a>
+                </div>
+            </div>
+    
+    
+            <div class="card">
+                <div class="card-img-actions m-1">
+                    <a href="#top-content" onclick="displaytext(2); return false;">
+                        <img class="card-img img-fluid" src="images/events/2.jpg" />
+                        <div class="card-img-actions-overlay card-img">	</div>
+                    </a>
+                </div>
+            </div>
+    
+    
+            <div class="card">
+                <div class="card-img-actions m-1">
+                    <a href="#top-content" onclick="displaytext(3); return false;">
+                        <img class="card-img img-fluid" src="images/events/3.jpg" />
+                        <div class="card-img-actions-overlay card-img">	</div>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-img-actions m-1">
+                    <a href="#top-content" onclick="displaytext(4); return false;">
+                        <img class="card-img img-fluid" src="images/events/4.jpg" />
+                        <div class="card-img-actions-overlay card-img">	</div>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="card-img-actions m-1">
+                    <a href="#top-content" onclick="displaytext(5); return false;">
+                        <img class="card-img img-fluid" src="images/events/5.jpg" />
+                        <div class="card-img-actions-overlay card-img">	</div>
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="section-carousel pt-3 pb-3" style="width:100%;background-color: rgb(0 0 0 / 10%);">
+        <div class="slideshow-container dv-slide-carousel">
+    
+            <div class="mySlides fade">
+                
+                <div class="card">
+                    <div class="card-img-actions m-1">
+                        <a onclick="displaytext(1); return false;">
+                            <img class="card-img img-fluid" src="images/events/1.jpg" />
+                            <div class="card-img-actions-overlay card-img">	</div>
+                        </a>
                     </div>
                 </div>
-
+                
             </div>
-            <div class="card" id="experiences">
-                <h2>WORK EXPERIENCES</h2>
-                <div class="timeline">
-
-                    <div class="container left">
-                        <div class="content">
-                            <h2>FREELANCE SOFTWARE DEVELOPER </h2>
-                            <div class="date">AUG 2012 – PRESENT</div>
-                            <div class="company">FREELANCE</div>
-                            <p>Davao Region, Philippines</p>
-                        </div>
+    
+            <div class="mySlides fade">
+    
+                <div class="card">
+                    <div class="card-img-actions m-1">
+                        <a href="#top-content" onclick="displaytext(2); return false;">
+                            <img class="card-img img-fluid" src="images/events/2.jpg" />
+                            <div class="card-img-actions-overlay card-img">	</div>
+                        </a>
                     </div>
-                    <div class="container right">
-                        <div class="content">
-                            <h2>SOFTWARE DEVELOPER</h2>
-                            <div class="date">AUG 2020 – SEPT 2020</div>
-                            <div class="company">DEALERCRAFT INC</div>
-                            <p>55 Sumersford Drive, Bowmanville, ON L1C 0P4</p>
-                        </div>
+                </div>
+               
+            </div>
+    
+            <div class="mySlides fade">
+                
+               <div class="card">
+                <div class="card-img-actions m-1">
+                    <a href="#top-content" onclick="displaytext(3); return false;">
+                        <img class="card-img img-fluid" src="images/events/3.jpg" />
+                        <div class="card-img-actions-overlay card-img">	</div>
+                    </a>
+                </div>
+            </div>
+               
+            </div>
+    
+            <div class="mySlides fade">
+    
+                <div class="card">
+                    <div class="card-img-actions m-1">
+                        <a href="#top-content" onclick="displaytext(4); return false;">
+                            <img class="card-img img-fluid" src="images/events/4.jpg" />
+                            <div class="card-img-actions-overlay card-img">	</div>
+                        </a>
                     </div>
-                    <div class="container left">
-                        <div class="content">
-                            <div class="content">
-                                <h2>ASP.NET FRONT-END DEVELOPER</h2>
-                                <div class="date">AUG 2020 – SEPT 2020</div>
-                                <div class="company">Millennial 365 Media</div>
-                                <p>US</p>
+                </div>
+    
+            </div>
+    
+            <div class="mySlides fade">
+    
+                <div class="card">
+                    <div class="card-img-actions m-1">
+                        <a href="#top-content" onclick="displaytext(5); return false;">
+                            <img class="card-img img-fluid" src="images/events/5.jpg" />
+                            <div class="card-img-actions-overlay card-img">	</div>
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+    
+        </div>
+        <br>
+    
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+    
+    <div class="page-content">
+    
+        <!-- Main content -->
+        <div class="content-wrapper">
+            
+            <!-- Inner content -->
+            <div class="content-inner">
+               
+                <div class="scroll" style="color:white">top-heading</div>
+                <h2  id="header-scoreboard">SCOREBOARD</h2>
+                <h3 class="font-weight-light" id="header-event"><span class="badge badge-success badge-event">Barangay Musikahan 2023</span></h3>
+    
+                            
+                <div class="content-section-bg">
+                    <div class="container ">
+                        <div class="title-wrap-centre">
+                            <h2>Juror's Choice</h2>
+                        </div>
+                        <div class="w-layout-grid content-grid">
+                            <div class="content-block bg-text">
+                                <div class="d-flex">
+                                    <div class="mr-2 dv-img-trophy" >
+                                        <img src="images/winner/trophy-icon.png" class="img-trophy"/>
+                                    </div>
+                                    <div class="txt-content">
+                                        <h3 style="color:green;">Who will be?</h3>
+                                        <h4 style="color: #4c4c4c;" class="font-weight-light">The Juror's Choice Award</h4>
+                                        <p>Musikahan sa Tagum 2023 - <span class="span-event">Barangay Musikahan 2023</span> event.</p>
+                                    </div>
+                                   
+                                </div>
+                               
+                               
+                            </div>
+                            <div class="image-block">
+                              
+                                <img class="img-winner-juror" src="images/winner/winner-default.png" />
+                               
                             </div>
                         </div>
                     </div>
-                    <div class="container right">
-                        <div class="content">
-                            <div class="content">
-                                <h2>WORDPRESS VA </h2>
-                                <div class="date">JUN 2020 – JUL 2020</div>
-                                <div class="company">Nick Mclachlan</div>
-                                <p>US</p>
+                </div>
+    
+                <div class="content-section">
+                    <div class="container">
+                       
+                            <div class="w-layout-grid works-grid">
+                                <div class="content-card">
+                                <img src="images/winner/people-default.png" alt="" class="step-image rounded-pill">
+                                    <div class="">
+                                        <h4 class="text-success">Who will be?</h4>
+                                    <h5 class="font-weight-light">The 1st Juror's Choice</h5>
+                                    </div>
+                                </div>
+                                <div class="line-column">
+                                    <div class="line"></div>
+                                </div>
+                                <div class="content-card">
+                                <img src="images/winner/people-default.png" alt="" class="step-image rounded-pill">
+                                    <div class="">
+                                    <h4 class="text-success">Who will be?</h4>
+                                    <h5 class="font-weight-light">The 2nd Juror's Choice</h5>
+                                    </div>
+                                </div>
+                                <div class="line-column">
+                                    <div class="line"></div>
+                                </div>
+                                <div class="content-card">
+                                <img src="images/winner/people-default.png" alt="" class="step-image rounded-pill">
+                                    <div class="">
+                                    <h4 class="text-success">Who will be?</h4>
+                                    <h5 class="font-weight-light">The 3rd Juror's Choice</h5>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
                     </div>
-                    <div class="container left">
-                        <div class="content">
-                            <h2>ADMINSITRATIVE AIDE III / SOFTWARE DEVELOPER</h2>
-                            <div class="date">AUG 2018 – MAY 2019</div>
-                            <div class="company">PROVINCIAL CAPITOL OF DAVAO DEL NORTE</div>
-                            <p>Mankilam, Tagum City, Davao del Norte, Philippines</p>
+                </div>
+    
+                <div class="content-section-bg">
+                    <div class="container">
+                        <div class="title-wrap-centre">
+                            <h2>Audience's Choice</h2>
                         </div>
-                    </div>
-
-                    <div class="container right">
-                        <div class="content">
-                            <h2>COMPUTER SCIENCE/ IT INSTRUCTOR </h2>
-                            <div class="date">JUN 2014 – MAY 2017</div>
-                            <div class="company">UM TAGUM COLLEGE</div>
-                            <p>Mabini-Arellano St., South, Tagum City, Davao del Norte, Philippines</p>
-                        </div>
-                    </div>
-                    <div class="container left">
-                        <div class="content">
-                            <h2>PROGRAMMING NCIV INSTRUCTOR </h2>
-                            <div class="date">SEP 2009 – MAY 2012</div>
-                            <div class="company">ACADEMIA DE DAVAO COLLEGE</div>
-                            <p>Quezon-Bonifacio St., Poblacion, Tagum City, Davao del Norte, Philippines</p>
+                        <div class="w-layout-grid content-grid">
+                            <div class="image-block">
+    
+                                <img class="img-winner-juror" src="images/winner/people-choice.png" />
+    
+                            </div>
+                            <div class="content-block bg-text">
+                                <h3 style="color:green;">Who will be?</h3>
+                                <h4 style="    color: #4c4c4c;" class="font-weight-light">The Audience's Choice Award</h4>
+                                <p>Musikahan sa Tagum 2023 - <span class="span-event">Barangay Musikahan 2023</span> event.</p>
+    
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
+    
             </div>
+            <!-- /inner content -->
+    
         </div>
-        <div class="rightcolumn">
-            <div class="card">
-                <h2>EDUCATION</h2>
-                <div class="education">
-                    <img src="images/umlogo.jpg" alt="">
-                    <div class="education-info">
-                        <div class="course">
-                            BS in COMPUTER SCIENCE
-                        </div>
-                        <div class="school-year">
-                            2005-2009
-                        </div>
-                        <div class="school">
-                            UM Tagum College
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="card">
-                <h3>SKILLS</h3>
-                <div class="skills-img">
-                    <img src="images/html-css-js.jpg" alt="Html, css and javascript logo">
-                    <img src="images/ps-ai-xd.jpg" alt="Photoshop, Illustrator and XD logo">
-
-                </div>
-            </div>
-            <div class="card">
-                <h3>DATABASES</h3>
-                <div class="skills-img">
-                    <img src="images/sqlserver.png" alt="Microsoft SQL Server logo">
-                    <img src="images/mysql.png" alt="MySQL logo">
-                </div>
-            </div>
-        </div>
+        <!-- /main content -->
+    
     </div>
-
-    <div class="footer">
-        <div>Powered by <strong>HTML</strong> and <strong>CSS</strong>
-        </div>
-    </div>
-
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="js/site.js" asp-append-version="true"></script>
+    <script src="pages/js/scoreboard.js"></script>
 </body>
-
 </html>
